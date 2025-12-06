@@ -18,8 +18,6 @@ This is a lightweight and reproducible implementation, meant as a skeleton for s
 - `requirements.txt` – Lists required Python packages
 - `sample_data/` – Place your `.wav` pitch files here
 - `demo_outputs/` – Pipeline writes reports and transcripts here
-- `pipeline_architecture.png` – (Optional) add a visual diagram of your pipeline
-- `SharkTank_Pitch_Analyzer_Report.pdf` – Assignment report (submit separately)
 
 ---
 
@@ -33,3 +31,4 @@ source venv/bin/activate       # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 python src/integrate_pipeline.py --input sample_data/pitch1.wav --out demo_outputs/
+
